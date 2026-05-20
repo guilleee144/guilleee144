@@ -1,16 +1,90 @@
-## Hi there 👋
+⚔ The Souls Grail
 
-<!--
-**guilleee144/guilleee144** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+Premium Elden Ring wiki & companion app inspired by the dark aesthetic of the Lands Between.
 
-Here are some ideas to get you started:
+🛠 Tech Stack
+Frontend
+Next.js 14
+React + TypeScript
+Tailwind CSS
+Lucide React + React Icons
+Backend
+FastAPI (Python)
+Supabase PostgreSQL
+Groq API (Mixtral 8x7B)
+BeautifulSoup4 + HTTPX
+APScheduler
+✨ Features
+🗡 Complete Boss Database (Base Game + DLC)
+⚗ 22 Item Categories with detailed stats & filtering
+👁 NPC & Merchant Database
+🐉 Creatures & Enemy Encyclopedia
+🗺 Interactive World Maps
+📋 Full Patch Notes History
+◈ AI Companion — Grace Companion
+Real-time Supabase context injection
+Live Fextralife scraping
+Multi-turn memory
+Intent detection (EN/ES)
+Item extraction with images
+⚔ Build Finder by playstyle
+🗄 Database
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+25+ Supabase tables covering:
+bosses, NPCs, creatures, locations, weapons, armors, talismans, sorceries, incantations, spirit ashes, consumables, materials, builds, patch notes and more.
+
+🌸 MirAI
+
+AI-powered anime, manga & gaming companion app for iOS and Android.
+
+🚀 Stack
+Frontend
+Expo SDK 54
+React Native + TypeScript
+Expo Router v4
+NativeWind v4
+Zustand
+TanStack Query
+React Hook Form + Zod
+Backend
+Supabase
+PostgreSQL + pgvector
+Edge Functions (Deno)
+APIs
+AniList GraphQL
+Steam Web API
+OpenAI (planned)
+✨ Features
+🎌 Anime & Manga discovery
+🎮 Steam library integration
+🧠 Personalized onboarding & taste system
+📚 Library tracking system
+👤 Fully customizable profile
+📈 XP & progression system
+🔍 Real-time search with infinite scroll
+📱 Modern mobile-first UI
+✅ Completed
+Authentication system
+Onboarding flow
+Home screen
+Discover screen
+Media detail pages
+Steam integration
+Library system
+Profile & edit profile
+Supabase backend architecture
+🔲 In Progress / Planned
+AI Chat Companion
+Memory system with pgvector embeddings
+AniList & MAL OAuth sync
+IGDB integration
+AI recommendation engine
+Voice interaction
+Social features
+Screenshot analysis
+🗄 Database Schema
+profiles
+user_taste
+memories
+chat_messages
+tracking
