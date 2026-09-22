@@ -76,10 +76,9 @@ AI-powered anime, manga & gaming companion app for iOS and Android.
 ## 🚀 Stack
 
 ### Frontend
-- Expo SDK 54
-- React Native + TypeScript
-- Expo Router v4
-- NativeWind v4
+- React Native CLI + TypeScript
+- React Navigation (native-stack + bottom-tabs)
+- react-native-config
 - Zustand
 - TanStack Query
 - React Hook Form + Zod
